@@ -7,8 +7,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
   height: 60px;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -28,4 +28,65 @@ header input {
   border: 2px solid black;
   border-radius: 50%;
   padding: 6px;
+  background-color: blue;
+}
+
+section {
+  width: 60%;
+  padding: 20px 0 0 50px;
+}
+
+section p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+section .video-views {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4px 0 4px 0;
+}
+
+section .channel-description {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
+}
+
+section .channel-description div .subs {
+  padding-bottom: 4px;
+}
+
+section .channel-description button {
+  height: 30px;
+  background-color: red;
+}
+
+section .comment-section .comment {
+  display: flex;
+  padding: 6px 0 6px 0;
+}
+
+section .comment-section .comment .initials1,
+.initials2,
+.initials3 {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+section .comment-section .comment .initials1 {
+  background-color: deepskyblue;
+}
+
+section .comment-section .comment .initials2 {
+  background-color: forestgreen;
+}
+
+section .comment-section .comment .initials3 {
+  background-color: greenyellow;
 }
