@@ -31,6 +31,10 @@ header input {
   background-color: blue;
 }
 
+content {
+  display: flex;
+}
+
 section {
   width: 60%;
   padding: 20px 0 0 50px;
@@ -89,4 +93,24 @@ section .comment-section .comment .initials2 {
 
 section .comment-section .comment .initials3 {
   background-color: greenyellow;
+}
+
+aside .other-videos img {
+  width: 200px;
+  height: 130px;
+  margin-right: 7px;
+}
+
+aside {
+  padding: 20px;
+}
+
+aside .other-videos {
+  display: flex;
+  padding: 15px;
+}
+
+aside .other-videos div .aside-videos-name {
+  font-weight: bold;
+  font-size: 20px;
 }
